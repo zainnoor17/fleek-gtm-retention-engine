@@ -43,6 +43,9 @@ See [`docs/architecture.md`](docs/architecture.md) for the diagram.
 | Decision | Why |
 |---|---|
 | **Transparent rules, no ML, no blended score** | Only 300 accounts over 6 months, with lumpy buying. Every output can be traced to a threshold in `fleek_engine/config.py`. |
+| **GMV is kept out of dependency; momentum is kept out of value** | Dependency (how much a buyer relies on an AM), value (Key/Core/Tail) and momentum (H2 vs H1) are three separate axes. The action segment combines them explicitly, so a large account is never mistaken for a dependent one, and a shrinking account is never mistaken for a small one. |
+| **Discovery behaviour is the migration signal** | All 78 broker-reliant accounts have 15 or fewer product views in six months. Phase 1 therefore targets independent browsing and app use; offers are only supporting evidence. |
+| **Chat and video are never self-serve targets** | Broker-reliant accounts generate 57% of chat threads and 81% of video requests. Pushing either would increase human dependency, and a guardrail check blocks it in drafts and targets. |
 | **Gated dependency score (50/30/20, broker ≤20% → 0)** | Without the gate, 79 of 93 "Medium" accounts had zero AM-placed orders. |
 | **"What should happen" is kept separate from "can it happen now"** | `primary_nba` is kept apart from `execution_status`. For example, ACC-001 is still a migration candidate but needs Key sign-off, and ACC-005 is on HOLD because of its duplicate status. |
 | **Priority sorts but never scores** | The queue sorts P0→P4, then Key→Core→Tail, then GMV. There is no extra ranking number. |

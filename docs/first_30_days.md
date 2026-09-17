@@ -22,8 +22,11 @@
 | Clear the **8 Manual Review** items: the 6 Phase 1 reviews, plus ACC-078 and 111 once attribution is known | Migration → Manual Review; approve or reject buttons | AMs + Portfolio Lead |
 | Make **Key sign-off decisions** on the 7 accounts (£309k). Declining is a valid outcome. | Migration → Key Sign-Off; approve or decline buttons | Portfolio Lead + AM |
 | Run the **8 Service Model Reviews** (qualitative until AM cost data exists) | Human Queue → Portfolio Lead | Portfolio Lead |
+| Book the Day 0 walkthroughs for the **4 Ready accounts**, but only if Week 1 confirmed February and attribution. If not, keep them booked and move the dates. | Migration → Ready | AMs |
 
 **Exit criterion:** every P1 account is In Progress or has a logged reason for not starting. Every sign-off and review decision is recorded in the audit trail.
+
+> **Why Phase 1 doesn't run before Week 3:** the Ready cohort is defined by momentum and broker share. Those are exactly the fields the RUN002 batch showed can move when February or order attribution is corrected. Starting Day 0 a week later costs little. Starting on a mis-classified account costs the relationship.
 
 ## Week 3: Start Phase 1 carefully
 
@@ -42,9 +45,12 @@
 |---|---|---|
 | Day 15–30 light check-ins on Phase 1 accounts: product views, app days, offers, self-serve orders | 90-day milestone table | AMs |
 | Define the **outcome feed**: sent, replied, ordered, and the 90-day monitoring inputs that `migration_progress()` expects | `fleek_engine/pipeline.py::migration_progress` | Me + Data |
-| Review the first month's change logs. Were the alerts useful? Were any false positives caused by the February or attribution issues? | Change / Rerun → Action log | Portfolio Lead + me |
+| Review the first month's change logs and the human overrides. Were the alerts useful? Were any false positives caused by the February or attribution issues? Tune playbook wording from AM feedback, but not the thresholds. | Change / Rerun → Action log; workflow audit | Portfolio Lead + me |
 | Agree the day-90 outcome rule for "no progress". The code currently says At Risk (restore support); the playbook text says "No Change – Reassess". | docs/methodology.md §10 | Portfolio Lead |
 | Plan the production path: a database state store, a CRM feed, send integration for automated rows only | docs/architecture.md | Me + Eng |
+| Decide the **Phase 2 candidates**: Manual Review accounts that cleared, approved Key accounts, and pre-entry accounts that reached two self-serve orders | Migration tabs after rerun | Portfolio Lead + AMs |
+| Review **AM coverage of low-value accounts** (Cost-to-Serve segment, the Service Model Review outcomes, and the 139 AM-owned accounts in automated nurture) | Human Queue → Portfolio Lead; Action Queue filters | Portfolio Lead |
+| Fix the **weekly operating cadence**: daily run, a Monday P0/P1 review, a Thursday migration and sign-off review, and a monthly threshold and override review | Overview + Change / Rerun | Portfolio Lead |
 
 **Exit criterion:** a short read-out covering what changed in the portfolio, which rules were overridden and why, which thresholds to revisit, and a decision on moving the state store and integrations to production.
 
