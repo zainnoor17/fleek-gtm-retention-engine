@@ -34,7 +34,8 @@ def guardrail_checks(e: pd.DataFrame) -> pd.DataFrame:
         "Broker-Reliant with automated growth nudge": int(((e["behavioural_segment"] == "Broker-Reliant") & growth).sum()),
         "Key Migration Candidate not on sign-off": int((e["key_account_signoff_required"] & (e["execution_status"] != "Human Sign-Off Required")).sum()),
         "Drafts / targets encouraging chat or video": int(drafts.str.contains(CHAT_VIDEO, case=False, regex=True).sum()
-                                                          + e["secondary_test_draft"].str.contains(CHAT_VIDEO, case=False, regex=True).sum()),
+                                                          + e["secondary_test_draft"].str.contains(CHAT_VIDEO, case=False, regex=True).sum()
+                                                          + e.get("target_behaviour", pd.Series("", index=e.index)).str.contains(CHAT_VIDEO, case=False, regex=True).sum()),
         "Drafts with banned phrases (churn, algorithm, dependency, migration, score...)": int(
             drafts.str.contains(BANNED_PHRASES, case=False, regex=True).sum()),
         "Range Expansion drafts claiming a benefit": int(e["secondary_test_draft"].str.contains(BENEFIT_CLAIMS, case=False, regex=True).sum()),

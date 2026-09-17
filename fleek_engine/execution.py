@@ -347,6 +347,12 @@ def generate_execution_plan(d: pd.DataFrame) -> pd.DataFrame:
                                                np.where(e["secondary_test"].str.contains("handpick"), "RANGE_HANDPICK", "RANGE_BUNDLE"), "")
     e["secondary_test_draft"] = [TEMPLATES[t] if t else "" for t in e["secondary_test_template_id"]]
     e["automation_eligible"] = e["execution_status"] == "Ready — Automated"
+    # approved Stage 4B library text (presentation only; does not change any decision)
+    txt = C.NBA_TEXT
+    e["nba_rationale"] = e["nba_reason_code"].map(lambda c: txt[c]["rationale"])
+    e["target_behaviour"] = e["nba_reason_code"].map(lambda c: txt[c]["target_behaviour"])
+    e.loc[(e["nba_reason_code"] == "NEW_CUSTOMER") & e["discovery_gap"], "target_behaviour"] += "; introduce Make-an-Offer on items already browsed"
+    e["success_measure"] = e["nba_reason_code"].map(lambda c: txt[c]["success_measure"])
     return e
 
 
@@ -356,6 +362,6 @@ EXEC_QUEUE_COLUMNS = [
     "recommended_channel", "first_action", "follow_up_days", "success_condition", "stop_condition", "escalation_condition",
     "guardrail_codes", "draft_status", "message_template_id", "draft_customer_message", "internal_task_brief",
     "secondary_test", "secondary_test_arm", "secondary_test_draft", "nurture_subcontext", "recent_activity_status",
-    "lifecycle_context", "rising_tail_watchlist", "phase1_rollout_status", "buyer_cadence", "migration_progress_status",
+    "target_behaviour", "success_measure", "lifecycle_context", "rising_tail_watchlist", "phase1_rollout_status", "buyer_cadence", "migration_progress_status",
     "next_rerun_behaviour",
 ]
