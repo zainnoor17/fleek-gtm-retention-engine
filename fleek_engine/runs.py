@@ -133,7 +133,7 @@ class RunStore:
         e["generated_action"] = e["action_key"].where(is_new_action, "")
 
         identical_input = (fp == last_fp)
-        log_rows = e[(e["change_type"] != "NO_MATERIAL_CHANGE") & ~identical_input].copy()
+        log_rows = e[(e["change_type"] != "NO_MATERIAL_CHANGE") & (not identical_input)].copy()
         log_rows = log_rows.assign(
             run_id=run_id, run_timestamp=run_timestamp,
             previous_primary_nba=log_rows["account_id"].map(ch.set_index("account_id")["prev_primary_nba"]),
