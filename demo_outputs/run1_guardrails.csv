@@ -1,0 +1,20 @@
+check,violations
+Every account has exactly one row,0
+Every account has primary_nba / execution_status / priority / action_state / owner,0
+HOLD accounts with any outbound draft,0
+Sign-off accounts with a migration draft before sign-off,0
+Human Review Required with automated outbound,0
+Segments 2/3/8 with automated action or growth nudge,0
+Service Model Review with a customer draft,0
+Recent Inactivity with automated growth action,0
+Broker-Reliant with automated growth nudge,0
+Key Migration Candidate not on sign-off,0
+Drafts / targets encouraging chat or video,0
+"Drafts with banned phrases (churn, algorithm, dependency, migration, score...)",0
+Range Expansion drafts claiming a benefit,0
+Range drafts sent to holdout arm,0
+"Drafts containing internal numbers (£, %, digits)",0
+Drafts outside 40-100 words,0
+Drafts with unfilled product placeholder,0
+Human-queue accounts without an internal brief,0
+Self Serve human actions not flagged for a named owner,0

@@ -1,0 +1,4 @@
+run_id,run_timestamp,label,input_fingerprint,identical_to_previous_input,accounts,log_rows_written,new_actions_generated,change_type_counts
+RUN001,2026-09-18T07:00Z,Baseline: 300-account portfolio,ff9e510207535c70,False,300,300,300,"{""BASELINE"": 300}"
+RUN002,2026-09-19T07:00Z,Second run: new_accounts upsert,2007ec7f90b42568,False,345,46,46,"{""NO_MATERIAL_CHANGE"": 299, ""NEW_ACCOUNT"": 45, ""NBA_CHANGED"": 1}"
+RUN003,2026-09-19T07:05Z,Idempotency: identical input re-run,2007ec7f90b42568,True,345,0,0,"{""NO_MATERIAL_CHANGE"": 345}"

@@ -1,0 +1,346 @@
+account_id,primary_nba,execution_status,attention_priority,migration_progress_status,guardrail_codes,action_state,action_key,input_row_hash,run_id
+ACC-001,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; BORDERLINE_MOMENTUM; FEB_SENSITIVE,Awaiting Sign-Off,0fcb61d89d13,2396b90ecfb0,RUN003
+ACC-002,Verify Demand / Win-Back,Ready — Human,P1,N/A,MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,ad531f2937d6,656109fd8dba,RUN003
+ACC-003,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; BORDERLINE_MOMENTUM; FEB_SENSITIVE,Awaiting Sign-Off,540a58c7127b,7ade1bc4f5c9,RUN003
+ACC-004,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; BORDERLINE_MOMENTUM,Awaiting Sign-Off,08d49164fd60,0dc215ffa0ba,RUN003
+ACC-005,Retention Conversation,HOLD — Critical Data Issue,P0,N/A,CRITICAL_DATA_BLOCKER,On Hold,5b28ca9bd14c,2c0f51ffa659,RUN003
+ACC-006,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF,Awaiting Sign-Off,e3d57b7950e8,bfb2de17c5df,RUN003
+ACC-007,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF,Awaiting Sign-Off,5d2eb2a4b67f,235de66261f1,RUN003
+ACC-008,Retention Conversation,Ready — Human,P1,N/A,BORDERLINE_MOMENTUM; MATERIAL_BROKER_INCONSISTENCY,Draft Ready,bbf41110e504,85fafc0d9107,RUN003
+ACC-009,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,14b26d9cbee4,a1ff9aff1f76,RUN003
+ACC-010,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,4966e1678608,01ba30006720,RUN003
+ACC-011,Establish / Re-establish,Ready — Human,P2,N/A,MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,7524c507b827,32683ca135fd,RUN003
+ACC-012,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; MATERIAL_BROKER_INCONSISTENCY,Awaiting Sign-Off,b5cb9babc36d,78a73ed43082,RUN003
+ACC-013,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,d5ca9688e26f,abc302e0b340,RUN003
+ACC-014,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,3541cedf4075,4dc0c9e8e514,RUN003
+ACC-015,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,2285c67f93e3,52526d41fbbf,RUN003
+ACC-016,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; NO_FEB_GMV (Feb unconfirmed),Awaiting Sign-Off,37d831150a2a,66bbc7aede01,RUN003
+ACC-017,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,5cb38fc6a985,0f826b070ff7,RUN003
+ACC-018,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,b301fe425ce1,7190b66d7d3a,RUN003
+ACC-019,Guided Self-Serve Migration,Ready — Hybrid,P2,Baseline,,Draft Ready,007fe44db0d2,f07c27dd4d4d,RUN003
+ACC-020,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; LUMPY_CADENCE; MATERIAL_BROKER_INCONSISTENCY; H2_SINGLE_MONTH_SPIKE,Awaiting Human Review,52e8620a3f1a,fbe9f7a0fdbb,RUN003
+ACC-021,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,71752711fe5b,500f5849448a,RUN003
+ACC-022,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,8f37f6a06496,f491f4dbf0b3,RUN003
+ACC-023,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,2808d52199a5,27effb736ccb,RUN003
+ACC-024,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; BORDERLINE_MOMENTUM,Awaiting Human Review,49dad3347eeb,5e23611a6ec7,RUN003
+ACC-025,Reinforce Successful Behaviour,Ready — Automated,P2,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,ca096fe30dd8,232776d4392a,RUN003
+ACC-026,Verify Demand / Win-Back,Ready — Human,P1,N/A,LOW_CONFIDENCE,Draft Ready,beae7abebe16,b6e05429b4b3,RUN003
+ACC-027,Guided Self-Serve Migration,Ready — Hybrid,P2,Baseline,NO_FEB_GMV (Feb unconfirmed),Draft Ready,c2f68f7ca5fd,a895fa55138f,RUN003
+ACC-028,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,f91bbd0fb68a,047e9c56f7aa,RUN003
+ACC-029,Guided Self-Serve Migration,Ready — Human,P3,Baseline,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,65f4916d6b6c,66d1485a483e,RUN003
+ACC-030,Guided Self-Serve Migration,Ready — Hybrid,P2,Baseline,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,159c0643b8b5,e5fd10451f73,RUN003
+ACC-031,Guided Self-Serve Migration,Ready — Hybrid,P2,Baseline,,Draft Ready,9699924bde84,7eadb866822d,RUN003
+ACC-032,Verify Demand / Win-Back,Ready — Human,P1,N/A,LOW_CONFIDENCE,Draft Ready,8480fbee4c85,065548fa8866,RUN003
+ACC-033,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; BORDERLINE_MOMENTUM,Awaiting Human Review,16ee29db7b94,5ac428a6c9a1,RUN003
+ACC-034,Guided Self-Serve Migration,Ready — Human,P3,Baseline,LUMPY_CADENCE; MATERIAL_BROKER_INCONSISTENCY; H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,879ab96f7320,8be8f03ac844,RUN003
+ACC-035,Retention Conversation,Ready — Human,P1,N/A,MATERIAL_BROKER_INCONSISTENCY; H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,54b853a6f434,4013025bddb3,RUN003
+ACC-036,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; LUMPY_CADENCE; H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Awaiting Human Review,bf548797d462,7c29633cb2bc,RUN003
+ACC-037,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,f3fb6364e78b,c133b82a8668,RUN003
+ACC-038,Verify Demand / Win-Back,Ready — Human,P1,N/A,LOW_CONFIDENCE,Draft Ready,172ea5e0f915,faa32792c081,RUN003
+ACC-039,Guided Self-Serve Migration,Ready — Human,P3,Baseline,LUMPY_CADENCE; FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,0fcf3873bc5c,fe2506759679,RUN003
+ACC-040,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,923b662583c0,c72aae2f70e1,RUN003
+ACC-041,Retention Conversation,Ready — Human,P1,N/A,MATERIAL_BROKER_INCONSISTENCY; NO_FEB_GMV (Feb unconfirmed),Draft Ready,664c8c477044,acab583d1e0e,RUN003
+ACC-042,Verify Demand / Win-Back,Ready — Human,P1,N/A,LOW_CONFIDENCE,Draft Ready,931083a5e42a,01125696d47e,RUN003
+ACC-043,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,635522c38afb,39d17cef387b,RUN003
+ACC-044,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,a9062c502f88,ba182b36703c,RUN003
+ACC-045,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,c17333135b8d,a6f505d46c16,RUN003
+ACC-046,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,22073667808a,4389515c4017,RUN003
+ACC-047,Establish / Re-establish,Ready — Human,P2,N/A,,Draft Ready,d857ee7a7173,a3e0b2a70638,RUN003
+ACC-048,Establish / Re-establish,Ready — Human,P2,N/A,,Draft Ready,85c8f6987236,4fa30923eb7f,RUN003
+ACC-049,Guided Self-Serve Migration,Ready — Human,P3,Baseline,,Draft Ready,e8d7cc4929a3,ebf02745a84f,RUN003
+ACC-050,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,40b9f8023762,426b236e0294,RUN003
+ACC-051,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,8f849ec07bb5,48a8e4ca05eb,RUN003
+ACC-052,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,3949b831e958,4b1b2be242ed,RUN003
+ACC-053,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,09ce1ffaedd3,a5c17cd151a2,RUN003
+ACC-054,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,44941c7c6027,bc29aeb94066,RUN003
+ACC-055,Retention Conversation,Ready — Human,P1,N/A,,Draft Ready,84ba41df31ac,0bdb3426644e,RUN003
+ACC-056,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; BORDERLINE_MOMENTUM; MATERIAL_BROKER_INCONSISTENCY; NO_FEB_GMV (Feb unconfirmed),Awaiting Human Review,3ef68990c056,262251e3e264,RUN003
+ACC-057,Guided Self-Serve Migration,Ready — Human,P3,Baseline,LUMPY_CADENCE; H2_SINGLE_MONTH_SPIKE,Draft Ready,debc77818ad3,c72b2909f3aa,RUN003
+ACC-058,Guided Self-Serve Migration,Human Review Required,P2,Baseline,PHASE1_MANUAL_REVIEW; LUMPY_CADENCE; FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Awaiting Human Review,3814d6df488f,7628458fa561,RUN003
+ACC-059,Retention Conversation,Ready — Human,P1,N/A,BORDERLINE_MOMENTUM; FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,70b8c061b647,4f212e655585,RUN003
+ACC-060,Verify Demand / Win-Back,Ready — Human,P1,N/A,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,78939faa3343,a68579afc2a0,RUN003
+ACC-061,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,e28cb5549b54,5ab021ed6fd3,RUN003
+ACC-062,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,83b24c3c09c6,9105b31c06a1,RUN003
+ACC-063,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,ac28d5041fff,99822962d2b1,RUN003
+ACC-064,Service Model Review,Ready — Human,P3,N/A,BORDERLINE_MOMENTUM; FEB_SENSITIVE,Not Started,ea60047c0021,001a619b5c11,RUN003
+ACC-065,Automated Nurture,Ready — Automated,P3,N/A,NO_FEB_GMV (Feb unconfirmed),Draft Ready,c3a72372035f,7e973bf31639,RUN003
+ACC-066,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,f751494a0af2,c5cb4719cfe2,RUN003
+ACC-067,Service Model Review,Ready — Human,P3,N/A,,Not Started,59d976603aa8,32fb5f9f6ff8,RUN003
+ACC-068,Reinforce Successful Behaviour,Ready — Automated,P3,N/A,,Draft Ready,d388a5f593ab,f26aaea73fe5,RUN003
+ACC-069,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,d5e8a6c32695,ef5ccffbd3bb,RUN003
+ACC-070,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,953b6127c446,2188bb8c576f,RUN003
+ACC-071,Service Model Review,Ready — Human,P3,N/A,H2_SINGLE_MONTH_SPIKE,Not Started,6cd01173727a,2e203ed3bd1c,RUN003
+ACC-072,Automated Nurture,Ready — Automated,P4,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,5ae2b2cde0f1,6a29c1614aca,RUN003
+ACC-073,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f47f5f56f997,4a46a744143e,RUN003
+ACC-074,Service Model Review,Ready — Human,P3,N/A,MATERIAL_BROKER_INCONSISTENCY; NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Not Started,0fab81c98c28,dbe69f2528f2,RUN003
+ACC-075,Service Model Review,Ready — Human,P3,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Not Started,5e51c9a1ed5c,586d239ab51d,RUN003
+ACC-076,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,ec3b1426520d,3e41de288543,RUN003
+ACC-077,Service Model Review,Ready — Human,P3,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Not Started,4c8d2cf7f6c3,ae9d7aa179b5,RUN003
+ACC-078,Automated Nurture,Human Review Required,P3,N/A,MATERIAL_BROKER_INCONSISTENCY (segment would change); H2_SINGLE_MONTH_SPIKE,Awaiting Human Review,6f3017b032a8,0abad03051aa,RUN003
+ACC-079,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,e891406e4c4e,6193b443b8bb,RUN003
+ACC-080,Service Model Review,Ready — Human,P3,N/A,,Not Started,71d07324867c,f58aa6bb1af1,RUN003
+ACC-081,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,66f3801b7ad9,2d7fef51f6fa,RUN003
+ACC-082,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,212eccfd4c0a,571b7a701eb3,RUN003
+ACC-083,Reinforce Successful Behaviour,Ready — Automated,P3,N/A,,Draft Ready,aa8993285b83,c90cb41144b2,RUN003
+ACC-084,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f1af6b517a0f,d64ba6a4f6d1,RUN003
+ACC-085,Reinforce Successful Behaviour,Ready — Automated,P3,N/A,,Draft Ready,f2b94879059a,d7bad3220732,RUN003
+ACC-086,Automated Nurture,Ready — Automated,P3,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,51560fabe901,683a2fcb3723,RUN003
+ACC-087,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,2eeccb8ab72f,bf9bcc5537d7,RUN003
+ACC-088,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,3d46b9f4fdf1,134b56afe82a,RUN003
+ACC-089,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,83b65679867a,76a495c86e16,RUN003
+ACC-090,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,830b19085775,a93c8dbc6e0f,RUN003
+ACC-091,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,140a44aa2700,ec13555f237a,RUN003
+ACC-092,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7126aeffae9c,67a2bc7a2d8f,RUN003
+ACC-093,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed),Draft Ready,084576f9c5fd,fa32c6cc1e1f,RUN003
+ACC-094,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,2273d6e9399f,1700b6ec3769,RUN003
+ACC-095,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,703b0a097633,6b3205f6c19b,RUN003
+ACC-096,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6d8dcd1f0f79,dc5b45cbecb7,RUN003
+ACC-097,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,02cd252e0cbc,ea8c4adb5033,RUN003
+ACC-098,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,fabe0d80dfb9,276fc1af1543,RUN003
+ACC-099,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,2cb7ed3cc060,ce2b6a4f3fd3,RUN003
+ACC-100,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,fb1e7d3fb6e3,66d6272884e6,RUN003
+ACC-101,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,db53945d941b,023b588d145b,RUN003
+ACC-102,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,d0dbce3413e6,142526a824e6,RUN003
+ACC-103,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,538b08a9a379,a2540477a26c,RUN003
+ACC-104,Service Model Review,Ready — Human,P3,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Not Started,8b1c267f7bdf,8de6bd511a66,RUN003
+ACC-105,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,e71b26c93fb8,2c6fe12c31b1,RUN003
+ACC-106,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,d3ee7ca0c4ff,f76a6cbac2fe,RUN003
+ACC-107,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,992c78051d9e,08b175c2993e,RUN003
+ACC-108,Automated Nurture,Ready — Automated,P4,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,8019ed528f62,65c77c4246fb,RUN003
+ACC-109,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,b0b92af43152,96ba8eb5149a,RUN003
+ACC-110,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a64bfa52730f,48c1709697e2,RUN003
+ACC-111,Discovery-to-Offer Enablement,Human Review Required,P3,N/A,MATERIAL_BROKER_INCONSISTENCY (segment would change); NO_FEB_GMV (Feb unconfirmed),Awaiting Human Review,99ad3fc1cdb9,af26a0b9fdcb,RUN003
+ACC-112,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7df27874c3b8,22b62af2983c,RUN003
+ACC-113,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,3e57044e1daf,2dc164e30834,RUN003
+ACC-114,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7fc0ae8a7c30,a585a911c7ad,RUN003
+ACC-115,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f4a439b839e7,0c0cbd6ce28c,RUN003
+ACC-116,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,f34435f6e226,87851ea8ea67,RUN003
+ACC-117,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8ae172b2ba78,65d3c709f40a,RUN003
+ACC-118,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,e765cba3ba50,f6705f3750b7,RUN003
+ACC-119,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,87e5a2126111,f194e562d33c,RUN003
+ACC-120,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,90acb7571c37,e71636f988bf,RUN003
+ACC-121,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f557f84a1951,48da5a7e2cf5,RUN003
+ACC-122,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,203623c791d0,8d8b68cfd876,RUN003
+ACC-123,Automated Nurture,Ready — Automated,P4,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,dbae9c2bcb99,8a088f603c85,RUN003
+ACC-124,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,4be814066136,75e0643d1bc1,RUN003
+ACC-125,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,cf9394c535a7,2cb7289ae042,RUN003
+ACC-126,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8823a19ce816,c387bfd99e75,RUN003
+ACC-127,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,e5b3874332b0,288f97146784,RUN003
+ACC-128,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,8c487f2810c7,151c502010ef,RUN003
+ACC-129,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,99bf6290f84c,b8c0c65bcb51,RUN003
+ACC-130,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,910268da6275,8a9c2acd6439,RUN003
+ACC-131,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,b6ce092011bb,4ecc87cad171,RUN003
+ACC-132,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,77b3482a05a9,563ba3829fc9,RUN003
+ACC-133,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,084a224ed92a,9ec6f27aca94,RUN003
+ACC-134,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,5e0879409efc,1687de5276cc,RUN003
+ACC-135,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,340151ba9252,cd21fef64c24,RUN003
+ACC-136,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,87787273a2ed,0b9ce11021a7,RUN003
+ACC-137,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,d2b82a82d987,1656ae89cf8d,RUN003
+ACC-138,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6f1215804a77,d2ebafe6aba4,RUN003
+ACC-139,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f6376901a81a,37aaa1c05f25,RUN003
+ACC-140,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c549f5a75fb0,f13df4e74329,RUN003
+ACC-141,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,5985adec5f86,fc03690476cb,RUN003
+ACC-142,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,b79587714460,bc0c2816658a,RUN003
+ACC-143,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,718f67ad5bea,328fe56aba8d,RUN003
+ACC-144,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a406cb8907ce,914f3b558098,RUN003
+ACC-145,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,b5775c88903a,cea58c4c95bc,RUN003
+ACC-146,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,71c6f516f13c,72ad945bb0b4,RUN003
+ACC-147,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6f72baa891cd,e131da3dd6ea,RUN003
+ACC-148,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,ce263c8e5d09,4dca9b5c93b0,RUN003
+ACC-149,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,fee9be9e2d9d,dec391899592,RUN003
+ACC-150,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,461b8dcad11b,3352e0e34ada,RUN003
+ACC-151,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c4a9c012f207,0be31e369c5f,RUN003
+ACC-152,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,68bcd0953328,b725a067ea54,RUN003
+ACC-153,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5cb129ab6340,d8bb8e0dcd22,RUN003
+ACC-154,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5428cabb9d9f,fdcd2e8c3ec9,RUN003
+ACC-155,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c0908b843125,b55b8aecfad0,RUN003
+ACC-156,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,3bb5df054133,5326acc8310c,RUN003
+ACC-157,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6b87ee703075,1f44d07d9d5d,RUN003
+ACC-158,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,1dbda6f70061,21429dd9aa9d,RUN003
+ACC-159,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7cbc6f3fbf1c,6ce779e2d8b2,RUN003
+ACC-160,Discovery-to-Offer Enablement,Ready — Automated,P3,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,597ead36ba57,bd08b97f4749,RUN003
+ACC-161,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8797b83ec891,cb0f565a07ac,RUN003
+ACC-162,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,e5aa3015ef20,e1e953875b18,RUN003
+ACC-163,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,dec2da24e53e,3cae3e576bc2,RUN003
+ACC-164,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,46fd7d116945,59957b8c3a59,RUN003
+ACC-165,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a9176dd82c9e,9e3b41fad7f3,RUN003
+ACC-166,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,bff2ff30b402,83e657fe2b41,RUN003
+ACC-167,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,81735233d7db,2240199e34a9,RUN003
+ACC-168,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,87e11c2eef11,eaed55b714d9,RUN003
+ACC-169,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5a2085c35ca6,6f6a379f7026,RUN003
+ACC-170,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,e2d527d359b1,91fec025c1e9,RUN003
+ACC-171,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0f7ed91d60c6,7acce2f9b912,RUN003
+ACC-172,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,d5d9e8818345,77f852909a28,RUN003
+ACC-173,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,96bbc1826f82,0c285c18cf8d,RUN003
+ACC-174,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,90728367d471,90d98db0409c,RUN003
+ACC-175,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,3fc5483f22a9,8bb7da4d605a,RUN003
+ACC-176,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,94af0171e89c,8cf96c665b85,RUN003
+ACC-177,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,2ef52d7e350a,d83c9e92d153,RUN003
+ACC-178,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,9fd00c22f7a3,083d583fc1ac,RUN003
+ACC-179,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,bb3e7953d27e,786cc9f87526,RUN003
+ACC-180,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,66ff983f3cb7,a450fda92c67,RUN003
+ACC-181,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,88e6a18c861d,9cbee22e349f,RUN003
+ACC-182,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,d83eba19c798,fcb67a053a05,RUN003
+ACC-183,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,4a1bec8bb6d8,8a7fab967136,RUN003
+ACC-184,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,87993aa90416,50ebaed8aa3b,RUN003
+ACC-185,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,b871545630e4,0c737908650e,RUN003
+ACC-186,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5d7448a9ea86,5b60e9a800a5,RUN003
+ACC-187,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,88432a41333b,9c376582e2cb,RUN003
+ACC-188,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,2acc851a5c42,557be5abd538,RUN003
+ACC-189,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,cf65c3d8ed81,6f74beedd918,RUN003
+ACC-190,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,2df02515b01d,2cfefad2e3de,RUN003
+ACC-191,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5fff9de1ac4f,0387b8ba7586,RUN003
+ACC-192,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,37904806c11d,f9cb0b414021,RUN003
+ACC-193,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0a4fe2c852ec,173d9beb175d,RUN003
+ACC-194,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0a76c7964377,e8142ff8f052,RUN003
+ACC-195,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,20cf560eb32c,71afe13948fe,RUN003
+ACC-196,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,92c8d1f0ba46,58fa44815e1c,RUN003
+ACC-197,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,4eefcefe0920,794472857d96,RUN003
+ACC-198,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5207cde5aa9d,df42949d122a,RUN003
+ACC-199,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6f2daa2b8a4b,cddf241de166,RUN003
+ACC-200,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c10dabd89268,3b77e26f945d,RUN003
+ACC-201,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a3af48d3caf4,42506015b570,RUN003
+ACC-202,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,1a6eef01c49b,c5d543d30225,RUN003
+ACC-203,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,ae7aee7523a2,39863da4b0a9,RUN003
+ACC-204,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,104a524f77c8,3db23a15fb95,RUN003
+ACC-205,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,746e5665bfc5,65ca85122f47,RUN003
+ACC-206,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5cf7047cb211,d6094f020439,RUN003
+ACC-207,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,b473bb382241,0d7c9160a483,RUN003
+ACC-208,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f4d8df5c311f,2bc6ee9f36c1,RUN003
+ACC-209,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0cd3ab719f0f,b90865a78be1,RUN003
+ACC-210,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,24eec152cce3,6e7905af79e8,RUN003
+ACC-211,Reinforce Successful Behaviour,Human Review Required,P2,N/A,FEB_SENSITIVE,Awaiting Human Review,0f799e9cf54b,b31537dc4618,RUN003
+ACC-212,Reinforce Successful Behaviour,Ready — Automated,P2,N/A,,Draft Ready,aa1e187383b5,77b5219fb797,RUN003
+ACC-213,Reinforce Successful Behaviour,Ready — Automated,P2,N/A,NO_FEB_GMV (Feb unconfirmed),Draft Ready,91cb14df2473,3e5efe8f259a,RUN003
+ACC-214,Retention Conversation,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,85018850706f,7d31b6d5bab1,RUN003
+ACC-215,Verify Demand / Win-Back,Ready — Human,P1,N/A,LOW_CONFIDENCE,Draft Ready,7be89ed5f41b,ce43fe64d53b,RUN003
+ACC-216,Verify Demand / Win-Back,Ready — Human,P1,N/A,H2_SINGLE_MONTH_SPIKE,Draft Ready,0ffb95bd9c91,b385604b0bc3,RUN003
+ACC-217,Establish / Re-establish,Ready — Automated,P2,N/A,,Draft Ready,5a52a8fcef4c,7d3cd9140e6c,RUN003
+ACC-218,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,d69faed4c289,35f38179a8e4,RUN003
+ACC-219,Discovery-to-Offer Enablement,Ready — Automated,P3,N/A,,Draft Ready,9001107dfa80,a0c65e032e2d,RUN003
+ACC-220,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8e9758ced7cd,7107da91da36,RUN003
+ACC-221,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,0bec578febde,edd7728f3b6c,RUN003
+ACC-222,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,7999b569caa7,3677900f13ac,RUN003
+ACC-223,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,672587e39985,002544bcf9fa,RUN003
+ACC-224,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,0f37ffd37385,7de35e299e91,RUN003
+ACC-225,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,e0dbb37266d4,87500a53250d,RUN003
+ACC-226,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,b2110c31973b,5353c7180c46,RUN003
+ACC-227,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,1a28b6518089,d98e088fbe64,RUN003
+ACC-228,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,b4ec099e11b3,55727ec1e3f9,RUN003
+ACC-229,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,419097fdf4a6,ce8761978db3,RUN003
+ACC-230,Automated Nurture,Ready — Automated,P4,N/A,BORDERLINE_MOMENTUM; H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,073e91fed835,45b216ce65d5,RUN003
+ACC-231,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,414d0d5121bb,c07681c93cbc,RUN003
+ACC-232,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,b5cfa22bc5c2,aacbe65c4685,RUN003
+ACC-233,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,ce026434ec4e,3bf88ea0c588,RUN003
+ACC-234,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,413a9e9197ee,3408781e7eef,RUN003
+ACC-235,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,78ad33491e60,e64e19cf367f,RUN003
+ACC-236,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,0e32789858d7,167906576124,RUN003
+ACC-237,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,43ef44026794,9ef18101ead5,RUN003
+ACC-238,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,a5698e9d2cda,9a17aa3db9c4,RUN003
+ACC-239,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0cec226abbae,ee9c1033cae1,RUN003
+ACC-240,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,33f61a831ce8,22ff33c0fb3a,RUN003
+ACC-241,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8c4dc46cd074,6fb4de59e509,RUN003
+ACC-242,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,7e57d7281d15,a415164538e0,RUN003
+ACC-243,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,46698e4c9086,560989ba32f9,RUN003
+ACC-244,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,43c32c95f95b,b3a86975766c,RUN003
+ACC-245,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,121061ba0610,6cb17793b43e,RUN003
+ACC-246,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,50d3f2ca43ec,1e2d48cb1b98,RUN003
+ACC-247,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,c432a6ed9894,0fed36e0b839,RUN003
+ACC-248,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,3eed98a78375,dc3b96823bd5,RUN003
+ACC-249,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c8d4829c2cd8,9a00cf98121d,RUN003
+ACC-250,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a405b65d81e0,00379932bfb9,RUN003
+ACC-251,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0af2daa28eec,7ce78e7a6108,RUN003
+ACC-252,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,e03f850245c4,9325f4449fe2,RUN003
+ACC-253,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,e0780da40176,b44f0c2eb2f0,RUN003
+ACC-254,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f5e0b31443c4,818452de8083,RUN003
+ACC-255,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,5753b3213ae2,e78e2dddff9c,RUN003
+ACC-256,Discovery-to-Offer Enablement,Ready — Automated,P3,N/A,LOW_CONFIDENCE,Draft Ready,a18f3158b1a0,c451fb7327ab,RUN003
+ACC-257,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7503815ad16b,9af4ac90776e,RUN003
+ACC-258,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,fedf5d9d5851,7e0d0739a56f,RUN003
+ACC-259,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,8e6abd168068,68958af25a1d,RUN003
+ACC-260,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c6285f384356,d3256d1892fd,RUN003
+ACC-261,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,1d8c8054350c,f7b12b01a76c,RUN003
+ACC-262,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,0c0eb5c98b7c,b6cdbc548e74,RUN003
+ACC-263,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,3d2fe57828d3,c17823ea27b3,RUN003
+ACC-264,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,2f6ee405dab0,15a1306b403b,RUN003
+ACC-265,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,4daa0f149895,c919fea1ca51,RUN003
+ACC-266,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6ff88212f5a0,dc1459c013ea,RUN003
+ACC-267,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,d08d70ae4476,f27834614fc8,RUN003
+ACC-268,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,8c88facd38b2,7567224ea034,RUN003
+ACC-269,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,97539148fc1c,fd9b0cbbb085,RUN003
+ACC-270,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,0a43e8b9b526,2f683c63fabf,RUN003
+ACC-271,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,8c6cc87d80c7,b9d14ebb1008,RUN003
+ACC-272,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,72b6c23e8f65,9d70fee52162,RUN003
+ACC-273,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,b83e15e68e61,d59a2826d923,RUN003
+ACC-274,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,de7f3136de62,a4a7560eefa5,RUN003
+ACC-275,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,2975b85d4de0,38ac8e68c67a,RUN003
+ACC-276,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,bad0550cc134,13d295fe658c,RUN003
+ACC-277,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,f0be33fe782d,59e2be843040,RUN003
+ACC-278,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,20b43632104f,36f49f2fdcef,RUN003
+ACC-279,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,dbc1e7c4b206,38fbd6655859,RUN003
+ACC-280,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,f0434e268b14,e2ac82611250,RUN003
+ACC-281,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,6b4ed2d1c17a,d33836f7b20b,RUN003
+ACC-282,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,4dc075fceb04,8db2a9c2eea5,RUN003
+ACC-283,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,3cf26b6622ae,3265d2c0d6bb,RUN003
+ACC-284,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,53c54b0e772a,06f638e19961,RUN003
+ACC-285,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,a73d380e0674,4ce3f2a40546,RUN003
+ACC-286,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,9c7445698aea,6c1c56908af4,RUN003
+ACC-287,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,b76893060cb5,043d32282445,RUN003
+ACC-288,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,27ce6185e812,5736308475e2,RUN003
+ACC-289,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,27bf7e51bb66,4b821fa2f595,RUN003
+ACC-290,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,e660fd25a3e6,22e415380d1d,RUN003
+ACC-291,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,e5d70530d239,e49c9b3d2c03,RUN003
+ACC-292,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,54c4d054a411,198f43485937,RUN003
+ACC-293,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,97dd1559bb91,4796d1ff2950,RUN003
+ACC-294,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,9a44e9ce58e2,eecf8dc25dd7,RUN003
+ACC-295,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,89e21a5eefbe,a447efd554a8,RUN003
+ACC-296,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,68e45acd40e2,d2c79118ca7f,RUN003
+ACC-297,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,74bfd559930a,a0eaa4ca51b3,RUN003
+ACC-298,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,ed0bbfe11383,002886ccf328,RUN003
+ACC-299,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,df7ada32eab2,0edb2cc057ad,RUN003
+ACC-300,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,c657541d685a,624a7fad2946,RUN003
+ACC-301,Retention Conversation,Ready — Human,P1,N/A,FEB_SENSITIVE; H2_SINGLE_MONTH_SPIKE,Draft Ready,5ec9071df9c3,10d0da831e83,RUN003
+ACC-302,Guided Self-Serve Migration,Human Sign-Off Required,P2,Baseline,KEY_SIGNOFF; H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Awaiting Sign-Off,c5b4f4826999,2d4cf33e2b70,RUN003
+ACC-303,Retention Conversation,Ready — Human,P1,N/A,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,098772224d83,a9291cf9ca70,RUN003
+ACC-304,Guided Self-Serve Migration,Ready — Hybrid,P2,Baseline,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,9ce6f8396576,f3e5d352946b,RUN003
+ACC-305,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,962b402c8042,c23b2bdd0ca9,RUN003
+ACC-306,Verify Demand / Win-Back,Ready — Human,P1,N/A,,Draft Ready,b7ed5d73d9d0,dee7792b187a,RUN003
+ACC-307,Establish / Re-establish,Ready — Human,P2,N/A,LOW_CONFIDENCE,Draft Ready,f0c9d7e4576d,29863a45e989,RUN003
+ACC-308,Guided Self-Serve Migration,Ready — Human,P3,Baseline,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,560c61f4bb1d,d6a07ab32ebf,RUN003
+ACC-309,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,e825aada3171,242f00e391fc,RUN003
+ACC-310,Service Model Review,Ready — Human,P3,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Not Started,618c111a6d6b,d6cb2f924dfb,RUN003
+ACC-311,Automated Nurture,Ready — Automated,P3,N/A,H2_SINGLE_MONTH_SPIKE; NO_FEB_GMV (Feb unconfirmed),Draft Ready,d9c6ad7bd10f,0b5545b31217,RUN003
+ACC-312,Automated Nurture,Ready — Automated,P4,N/A,BORDERLINE_MOMENTUM; MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,fca883535edd,766120eedb1c,RUN003
+ACC-313,Service Model Review,Ready — Human,P3,N/A,FEB_SENSITIVE,Not Started,36cd01a37a11,6d18cd087518,RUN003
+ACC-314,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY; LOW_CONFIDENCE,Draft Ready,96c9cb8e3c47,e7355dd5db86,RUN003
+ACC-315,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,9e21a407858c,32274a06feaf,RUN003
+ACC-316,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f35144765037,6e1b5006c182,RUN003
+ACC-317,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,72f88603e5d2,34252771819e,RUN003
+ACC-318,Automated Nurture,Ready — Automated,P4,N/A,,Draft Ready,a7af2ab24f72,b9ec10b269df,RUN003
+ACC-319,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,370480312be3,e31d53ab3ebd,RUN003
+ACC-320,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,90fe3d1a4327,a2e2391dd804,RUN003
+ACC-321,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,fe046772254c,ea5b63b35f08,RUN003
+ACC-322,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,f5c1b81dd06b,9a5424d2dc1d,RUN003
+ACC-323,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c552125ab390,20d95c61e72f,RUN003
+ACC-324,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,4d1b76003b22,afc2182d772b,RUN003
+ACC-325,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,04acf9d29755,dde16a3b6f6b,RUN003
+ACC-326,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,dedc35c6bde7,a22a5ddca564,RUN003
+ACC-327,Automated Nurture,Ready — Automated,P4,N/A,MATERIAL_BROKER_INCONSISTENCY,Draft Ready,76b954533fbf,d91056262a9a,RUN003
+ACC-328,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,33aeebc57177,b37381bbad8e,RUN003
+ACC-329,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,e2e812e4313d,66dd247ef168,RUN003
+ACC-330,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,91567a692bc6,5ae2709c6717,RUN003
+ACC-331,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,06455cade58a,e8713049b6f9,RUN003
+ACC-332,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,990096ea67ba,ee2e9a25ca5c,RUN003
+ACC-333,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,0cb18308da4f,1b9a70073cd9,RUN003
+ACC-334,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7435936fab67,8ca0a2e17919,RUN003
+ACC-335,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,4622ddc113c7,4a3ffe5cc8bd,RUN003
+ACC-336,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c2d236d09627,2a7d0c00b5e7,RUN003
+ACC-337,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,463466a9e706,87afa9fcd06e,RUN003
+ACC-338,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a1a856eac763,27a253bf90f0,RUN003
+ACC-339,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,7a26e8748540,0000bdd6bb0f,RUN003
+ACC-340,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,a07894e4e0c3,13bc66ccc7da,RUN003
+ACC-341,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,257d2ea8c08b,a9914d880d11,RUN003
+ACC-342,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,9fb9fdd93ac8,31fe136b1488,RUN003
+ACC-343,Automated Nurture,Ready — Automated,P4,N/A,LOW_CONFIDENCE,Draft Ready,c9c78fc9e850,696fc89d9f78,RUN003
+ACC-344,Automated Nurture,Ready — Automated,P4,N/A,FEB_SENSITIVE; LOW_CONFIDENCE,Draft Ready,5828be6a4b56,1712e7bb716e,RUN003
+ACC-345,Automated Nurture,Ready — Automated,P4,N/A,NO_FEB_GMV (Feb unconfirmed); LOW_CONFIDENCE,Draft Ready,6195433843b5,fec35fa3e9e7,RUN003
