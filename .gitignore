@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Runtime state and outputs (regenerable; committed evidence lives in demo_state/ and demo_outputs/)
+state/
+outputs/
+demo_state/runs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
