@@ -178,3 +178,11 @@ docs/                   architecture, methodology, human vs automation, demo scr
 | Identical rerun | ~14.6 s | 0 log rows, 0 new actions |
 
 This shows the rules are vectorised and still correct at that row count. It does **not** show performance on a real, varied 30k portfolio, with CRM or email latency, or with concurrent users. Most of the full-run time is CSV state handling and row hashing.
+
+## Production data integration
+
+The case-study implementation reads from the supplied Excel workbook because that is the source dataset provided.
+
+The rules engine itself is source-agnostic. In production, the ingestion layer could be replaced by a CRM export, warehouse query, database table, or API feed without changing the segmentation, next-best-action, or execution logic.
+
+The current implementation has been benchmarked on 30,000 synthetic accounts. At larger production scale, I would move persistent state from CSV files into a database and connect the engine directly to Fleek's warehouse or CRM.
